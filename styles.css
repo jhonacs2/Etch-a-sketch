@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgb(44, 42, 42);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    
+    
+}
+
+.grid{
+    /* width: 50%; */
+    height: auto;
+    background: red;
+    border: 1px solid blue;
+}
